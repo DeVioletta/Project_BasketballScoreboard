@@ -52,7 +52,6 @@ function updateScore(){
             color:'#F94F6D',
             textShadow: '0 0 15px #fd002e'
         })
-  
     }
     else if (countGuest > countHome){
         Object.assign(guestScoreEl.style, {
@@ -64,7 +63,7 @@ function updateScore(){
             textShadow: '0 0 15px #fd002e'
         })
     }
-    else if (countGuest = countHome){
+    else if (countGuest == countHome){
         Object.assign(guestScoreEl.style, {
             color:'#ffff69',
             textShadow: '0 0 15px yellow'
