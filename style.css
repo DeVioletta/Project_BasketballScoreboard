@@ -1,0 +1,168 @@
+:root{
+    font-size: 62.5%;
+}
+
+body{
+    margin:0;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.main-container{
+    background-color: #1B244A;
+    height:100vh;
+    width:86vh;
+}
+
+header{
+    width:100%;
+    display: flex;
+    justify-content: center;
+}
+
+h1{
+    width:80%;
+}
+
+.content-section{
+    display:flex;
+    justify-content: center;
+}
+
+.container{
+    width:50%;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.LHS{
+    margin-left: 5%;
+}
+
+.RHS{
+    margin-right: 5%;
+}
+
+h1, .title{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #EEEEEE;
+    text-shadow: 0 0 4px white;
+}
+
+h1{
+    font-size: 4rem;
+    font-weight: 800;
+}
+
+.title{
+    font-size: 4rem;
+    font-weight: 700;
+    margin-bottom:0;
+}
+
+#home-score, #guest-score{
+    font-family: 'Cursed Timer ULiL', sans-serif;
+    font-size:9rem;
+    color:#F94F6D;
+    font-weight: 400;
+    line-height: 1.5;
+    
+}
+
+.score-box{
+    width:20vh;
+    height:20vh;
+    background-color: #080001;
+    margin-top:2.1rem;
+    margin-bottom: 0;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.btn-container{
+    display: flex;
+    gap:0.9rem;
+    justify-content: center;
+    margin-top: 2.6rem;
+    width:100%;
+}
+
+.score-btn{
+    width:6.8vh;
+    height:6.8vh;
+    border-radius: 5px;
+    border: 2px solid #9AABD8;
+    background: none;
+    color:#9AABD8;
+    font-family: 'Cursed Timer ULiL', sans-serif;
+    font-weight: 400;
+}
+
+.score-btn:hover{
+    scale:1.05;
+    box-shadow: 0 0 20px #5983f9;
+}
+
+#reset-btn:hover{
+    scale:1.05;
+    box-shadow:0 0 15px red;
+}
+#reset-btn{
+    width:10vh;
+    height:5vh;
+    border: 2px solid #E1341E;
+    border-radius: 5px;
+    color: #E1341E;
+    background: #e1351e3c;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding:5px 10px;
+    text-align: center;
+    position: relative;
+    top:25%;
+    text-shadow: 0 0 10px red;
+}
+
+@media (max-width:600px){
+    h1, .title{
+        font-size: 2rem;
+    }
+
+    .main-container{
+        height:100vh;
+        width:100%;
+    }
+
+    .container{
+        width:40%;
+    }
+
+    .content-section{
+        gap:10%
+    }
+
+    #home-score, #guest-score{
+        font-size: 7rem;
+    }    
+
+    button{
+        font-size: 90%;
+    }
+}
+
+@media (min-width:1600px){
+    .main-container{
+        width:60%
+    }
+
+    .content-section{
+        scale:1.14;
+    }
+
+    #reset-btn{
+        scale:1.1;
+    }
+}
