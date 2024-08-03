@@ -66,7 +66,8 @@ h1{
 #home-score, #guest-score{
     font-family: 'Cursed Timer ULiL', sans-serif;
     font-size:9rem;
-    color:#F94F6D;
+    color:#ffff69;
+    text-shadow: 0 0 15px yellow;
     font-weight: 400;
     line-height: 1.5;
     
