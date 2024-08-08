@@ -52,6 +52,10 @@ h1, .title{
     text-shadow: 0 0 4px white;
 }
 
+h1:hover, .title:hover{
+    text-shadow: 0 0 10px white;
+}
+
 h1{
     font-size: 4rem;
     font-weight: 800;
@@ -73,6 +77,10 @@ h1{
     
 }
 
+#home-score:hover, #guest-score:hover{
+    text-shadow: 0 0 25px yellow;
+}
+
 .score-box{
     width:20vh;
     height:20vh;
@@ -83,6 +91,10 @@ h1{
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.score-box:hover{
+    box-shadow: 0 0 15px gray;
 }
 .btn-container{
     display: flex;
