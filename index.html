@@ -1,47 +1,45 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Basketball-Scoreboard</title>
-    <link rel="stylesheet" href="style.css" />
-    <link
-      href="https://fonts.cdnfonts.com/css/cursed-timer-ulil?styles=72396"
-      rel="stylesheet"
-    />
-  </head>
-  <body>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.cdnfonts.com/css/cursed-timer-ulil?styles=72396" rel="stylesheet">
+                
+                
+</head>
+<body>
     <div class="main-container">
-      <header>
-        <h1>BASKETBALL SCOREBOARD</h1>
-      </header>
-      <div class="content-section">
-        <div class="container LHS">
-          <h2 class="title">HOME</h2>
-          <div class="score-box">
-            <h2 id="home-score">0</h2>
-          </div>
-          <div class="btn-container">
-            <button class="score-btn" id="add1PointsHome">+1</button>
-            <button class="score-btn" id="add2PointsHome">+2</button>
-            <button class="score-btn" id="add3PointsHome">+3</button>
-          </div>
+        <header>
+            <h1>BASKETBALL SCOREBOARD</h1>
+        </header>
+        <div class="content-section">
+            <div class="container LHS">
+                <h2 class="title">HOME</h2>
+                <div class="score-box">
+                    <h2 id="home-score">0</h2>
+                </div>
+                <div class="btn-container">
+                    <button class="score-btn" id="add1PointsHome">+1</button>
+                    <button class="score-btn" id="add2PointsHome">+2</button>
+                    <button class="score-btn" id="add3PointsHome">+3</button>
+                </div>
+            </div>
+            <div class="container RHS">
+                <h2 class="title">GUEST</h2>
+                <div class="score-box">
+                    <h2 id="guest-score">0</h2>
+                </div>
+                <div class="btn-container">
+                    <button class="score-btn" id="add1PointsGuest">+1</button>
+                    <button class="score-btn" id="add2PointsGuest">+2</button>
+                    <button class="score-btn" id="add3PointsGuest">+3</button>
+                </div>
+            </div>
         </div>
-        <div class="container RHS">
-          <h2 class="title">GUEST</h2>
-          <div class="score-box">
-            <h2 id="guest-score">0</h2>
-          </div>
-          <div class="btn-container">
-            <button class="score-btn" id="add1PointsGuest">+1</button>
-            <button class="score-btn" id="add2PointsGuest">+2</button>
-            <button class="score-btn" id="add3PointsGuest">+3</button>
-          </div>
-        </div>
-      </div>
-      <button id="reset-btn">reset</button>
-      <button id="reset-btn">reset</button>
+        <button id="reset-btn">reset</button>
     </div>
-    <script src="index.js"></script>
-  </body>
+<script src="index.js"></script>
+</body>
 </html>
